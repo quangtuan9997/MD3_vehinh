@@ -45,11 +45,11 @@ public class Main {
                 System.out.println("nhap canh chieu cao vuong");
                 int e=sc.nextInt();
                 int k=0;
-                for (int i=0;i<=e;i++){
+                for (int i=1;i<=e;i++,k=0){
                     for (int j=e;j>i;j--){
-                        System.out.print(" ");
+                        System.out.print("  ");
                     }
-                    while (k != 2 * i - 1) {
+                    while (k != 2 * i -1) {
                         System.out.print("* ");
                         ++k;
                     }
